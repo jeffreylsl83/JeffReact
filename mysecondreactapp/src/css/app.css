@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f6f8;
+}
+
+.app {
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #ddd;
+}
+
+input,
+select {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+.confirmed {
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: #dff5e1;
+}
+
+.pending {
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: #fff1c7;
+}
+
+.cancelled {
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: #ffdede;
+}
